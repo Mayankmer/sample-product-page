@@ -5,6 +5,7 @@ body{
     display: flex;
     background-color: #1f2937;
     margin: 0;
+    flex: auto;
 }
 .header{
     justify-content: space-between;
@@ -48,4 +49,9 @@ a{
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
